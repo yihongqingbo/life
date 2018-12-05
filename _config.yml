@@ -171,14 +171,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: yihongqingbo
-    repo: blog-comments
+    repo: yihongqingbo.github.io
     oauth:
         client_id: f06f73519e4556b853bb
         client_secret: 251435dc07e3d5d1c06839ae441bdce7ed7f5479
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: yihongqingbo
-    repo: blog-comments
+    repo: yihongqingbo.github.io
     clientID: f06f73519e4556b853bb
     clientSecret: 251435dc07e3d5d1c06839ae441bdce7ed7f5479
 # 在使用其它评论组件时可点击显示 Disqus
