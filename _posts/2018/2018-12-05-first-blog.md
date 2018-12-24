@@ -2,8 +2,8 @@
 layout:     post
 title:      使用Jekyll gitalk搭建博客遇到问题
 no-post-nav: true
-category: life
-tags: [life]
+category: other
+tags: [other]
 excerpt: 初次尝试搭建博客	
 ---
 # fork一份Jekyll主题之后，博客请求不到js，css

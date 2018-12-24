@@ -2,8 +2,8 @@
 layout:     post
 title:      java导入excel数据 前端展示进度的功能
 no-post-nav: true
-category: life
-tags: [life]
+category: java
+tags: [java]
 excerpt: 只谈谈思路	
 ---
 java 读取excel ，每读取一行message++,将message放到session里面
