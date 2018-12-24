@@ -1,11 +1,11 @@
 ---
 layout: page
 title: 读书只是消遣时间的一种健康方式
-titlebar: book
+titlebar: books
 subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp;以书为友
-menu: book
+menu: books
 css: ['blog-page.css']
-permalink: /book
+permalink: /books
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /book
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='book' %}
+                {% if post.category=='books' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
