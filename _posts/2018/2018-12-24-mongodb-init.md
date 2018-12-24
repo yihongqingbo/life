@@ -46,5 +46,5 @@ cd /apps/mongodb/bin  #切换到bin 目录
 ./mongod
 ```
 也可以通过mongoVUE这个可视化工具连接
-
+下载地址：[mongoVUE](https://www.newasp.net/soft/396162.html)
 
