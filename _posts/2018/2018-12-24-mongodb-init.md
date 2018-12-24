@@ -6,42 +6,45 @@ category: bigData
 tags: [bigData]
 excerpt: mongodb
 ---
-例子：[demo](/assets/files/2018/penguin.html)
-# html中图片上画框
-这种应用场景很多，工艺图片上添加文字描述。人物图片上画图头像框
-原理：图片作为div的背景图片。在div中添加文字或元素
-```css
-	#img2{
-	width:350px;
-	height:250px;
-	background:url(penguin.png) no-repeat;
-	background-size:contain;
-	border:solid 1px #000;
-	}
+# 下载安装包
+下载地址：[mongodb](https://www.mongodb.com/download-center/community)
 
-	#secondhead{
-	width:80px;
-	height:80px;
-	position:absolute;
-	left:150px;
-	top:30px;
-	border: 1px solid #f00;
-	}
+# 解压 拷贝到指定目录
+```shell
+tar -zxvf mongodb-linux-x86_64-3.0.6.tgz                           # 解压
+mv  mongodb-linux-x86_64-3.0.6/ /apps/mongodb                 # 将解压包拷贝到指定目录
 ``` 
-# html中图片的局部放大
-这种应用场景有：比较两个图片差异处的时候，进行放大。
-原理：图片作为div的背景图片。div的宽高是局部大小的N倍。
-根据background-position:x y，设置图片位置的移动。
-图片一般需要向右上移动，所以x,y为负数
-
-```css
-	#bigimg{
-	width:160px;
-	height:160px;
-
-	background:url(penguin.png) no-repeat;
-	background-position: -300px -60px;
-	border:solid 1px #000;
-	}
+# 创建数据存储文件夹和日志文件
+需要创建mongoDB的数据存储目录 ，日志文件
+```shell
+mkdir dbdata
+touch mongodb.log
 ``` 
+![](https://yihongqingbo.github.io/assets/images/2018/20181224_1.png)
+# 启动数据库服务器
+```shell
+cd /apps/mongodb/bin  #切换到bin 目录
+./mongod -dbpath=/apps/mongodb/dbdata -logpath=/apps/mongodb/mongodb.log -logappend -port=27017 -fork
+``` 
+常用的启动参数：
+   --dbpath：指定存储数据的文件夹
+   --logpath：指定日志存储文件
+   --logappend：日志以增加方式产生
+   --port指定端口，如果不写的话，默认是27017
+   --fork代表后台运行
+启动成功的界面（加了后台启动参数fork）
+![](https://yihongqingbo.github.io/assets/images/2018/20181224_2.png)
+# 停止mongodb
+```shell
+./mongod -shutdown -dbpath=/apps/mongodb/dbdata
+```
+![](https://yihongqingbo.github.io/assets/images/2018/20181224_3.png)
+# 连接mongodb
+进入mongodb命令行
+```shell
+cd /apps/mongodb/bin  #切换到bin 目录
+./mongod
+```
+也可以通过mongoVUE这个可视化工具连接
+
 
