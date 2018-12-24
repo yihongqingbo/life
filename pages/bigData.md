@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 还没有看透大数据的面纱
+title: 逐步揭开大数据的面纱
 titlebar: bigData
-subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp; web其实要不断学习
+subtitle: <span class="mega-octicon octicon-keyboard"></span>&nbsp;&nbsp;不断学习
 menu: bigData
 css: ['blog-page.css']
 permalink: /bigData
