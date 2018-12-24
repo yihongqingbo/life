@@ -2,8 +2,8 @@
 layout:     post
 title:      无机械健身方式-囚徒健身
 no-post-nav: true
-category: book
-tags: [book]
+category: books
+tags: [books]
 excerpt: 囚徒健身
 ---
 例子：[demo](/assets/files/2018/penguin.html)
