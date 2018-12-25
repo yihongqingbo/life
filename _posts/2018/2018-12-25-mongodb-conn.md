@@ -41,7 +41,7 @@ ervice iptables restart
 # 连接mongodb
 ```shell
 cd /apps/mongodb/bin  #切换到bin 目录
-./mongod ip:27017
+./mongo ip:27017
 ```
 
 
