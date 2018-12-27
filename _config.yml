@@ -55,31 +55,34 @@ paginate: 10
 paginate_path: 'page:num'
 
 # Navigation. If you do not like these modules, just remove them :D
+# ---------------- #
+#       RSS        #
+# ---------------- #
 navs:
 
   -
     href: /
     label: Home
 
-  -
-    href: /spring-boot.html
-    label: Spring-Boot
+ # -
+ #   href: /spring-boot.html
+ #   label: Spring-Boot
+ #
+ # -
+ #   href: /spring-cloud.html
+ #   label: Spring-Cloud
+ #
+ #-
+ #   href: /archives.html
+ #  label: Archives
 
-  -
-    href: /spring-cloud.html
-    label: Spring-Cloud
+ # -
+ #   href: /link.html
+ #  label: Link
 
-  -
-    href: /archives.html
-    label: Archives
-
-  -
-    href: /link.html
-    label: Link
-
-  -
-    href: /about.html
-    label: About
+ # -
+ #   href: /about.html
+ #   label: About
 
 
 # labels. my blog key words
@@ -118,6 +121,7 @@ labels:
     name: Code   
 
 # selected articles
+
 classes:
 
   -
@@ -126,7 +130,7 @@ classes:
     describe: 输出就有结果，简单明了
 
   -
-    href: /bigData.html
+    href: /bigata.html
     name: 大数据技术点
     describe: 拼凑出大数据画面
 
