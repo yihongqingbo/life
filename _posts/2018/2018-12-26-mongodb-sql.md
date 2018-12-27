@@ -14,7 +14,11 @@ db.imooc_collection.update({x:100},{$set:{y:200}})
 db.imooc_collection.update({x:1000},{$set:{y:200}},true)
 # 查询索引
 db.imooc_collection.getIndexes()
-#添加索引
+# 添加索引
 db.imooc_collection.ensureIndex({x:1})
 添加字段X为索引 1代表正向排序 -1代表逆向排序
+
+
+
+
 
