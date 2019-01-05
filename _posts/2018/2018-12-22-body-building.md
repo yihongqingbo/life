@@ -6,42 +6,27 @@ category: books
 tags: [books]
 excerpt: 囚徒健身
 ---
-例子：[demo](/assets/files/2018/penguin.html)
-# html中图片上画框
-这种应用场景很多，工艺图片上添加文字描述。人物图片上画图头像框
-原理：图片作为div的背景图片。在div中添加文字或元素
-```css
-	#img2{
-	width:350px;
-	height:250px;
-	background:url(penguin.png) no-repeat;
-	background-size:contain;
-	border:solid 1px #000;
-	}
+## 训练计划--渐入佳境
+| 周一 | 周二 | 周三 | 周四 | 周五 | 周六 | 周日 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|俯卧撑<br>2组|无|引体向上<br>2组|无|倒立撑<br>2组|无|无|
+|举腿<br>2组|无|深蹲<br>2组|无|桥<br>2组|无|无|
 
-	#secondhead{
-	width:80px;
-	height:80px;
-	position:absolute;
-	left:150px;
-	top:30px;
-	border: 1px solid #f00;
-	}
-``` 
-# html中图片的局部放大
-这种应用场景有：比较两个图片差异处的时候，进行放大。
-原理：图片作为div的背景图片。div的宽高是局部大小的N倍。
-根据background-position:x y，设置图片位置的移动。
-图片一般需要向右上移动，所以x,y为负数
+## 俯卧撑 第一式 墙壁俯卧撑
+解析：肘部向下弯曲，而非向外弯曲。动作要慢，落--底--升,时间为2S-1S-2S,
+吸气--呼气。
+## 举腿 第一式 坐姿屈膝
+解析：注意是腰部用力。收--底--放，时间为2S-1S-2S,呼气--吸气
+## 引体相互 第一式 垂体引体
+解析：肱二头肌和上背部应该有拉伸感。 
+## 深蹲 第一式 肩倒立深蹲
+解析：此动作对上身要求更高。上臂紧贴地面，不要让颈部受到压力。
+## 倒立撑 第一式 靠墙顶力
+解析：此动作是锻炼肩膀的。倒立姿势，只需稍加练习。我们的血管、内脏器官以及
+头部就会适应这种突然的颠倒。肩部要维持身体的平衡。伸直双脚，身体摆正
+## 桥 第一式 短桥
+解析：桥是锻炼脊柱的。身体撑起 呼气2s--暂停1s--身体放低 吸气1S
 
-```css
-	#bigimg{
-	width:160px;
-	height:160px;
 
-	background:url(penguin.png) no-repeat;
-	background-position: -300px -60px;
-	border:solid 1px #000;
-	}
-``` 
+
 
