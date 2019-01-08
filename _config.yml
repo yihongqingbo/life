@@ -64,9 +64,9 @@ navs:
     href: /
     label: Home
 
- # -
- #   href: /spring-boot.html
- #   label: Spring-Boot
+  -
+    href: /baby.html
+    label: baby
  #
  # -
  #   href: /spring-cloud.html
@@ -130,7 +130,7 @@ classes:
     describe: 输出就有结果，简单明了
 
   -
-    href: /bigata.html
+    href: /bigData.html
     name: 大数据技术点
     describe: 拼凑出大数据画面
 
