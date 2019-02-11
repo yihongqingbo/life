@@ -67,6 +67,10 @@ navs:
   -
     href: /baby.html
     label: baby
+    
+  -
+    href: /life.html
+    label: life
  #
  # -
  #   href: /spring-cloud.html
