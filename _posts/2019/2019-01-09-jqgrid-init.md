@@ -6,6 +6,13 @@ category: web
 tags: [web]
 excerpt: font css 
 ---
+## 选中一行,复选框选中
+jQuery("#jqGrid").setSelection(row, false); 
+## 获取所有行id
+var ids = jQuery("#jqGrid").jqGrid('getDataIDs');
+## 获取一行数据
+var rowData =  $("#jqGrid").jqGrid('getRowData',rowKey)
+
 
 ## jqGrid初始化参数
 1. 鼠标滚动分页 scroll: 1
