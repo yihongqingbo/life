@@ -49,7 +49,13 @@ function validateEntity(entity){
 <p>缺点很明显：div的样式 需要js去控制</p>
 <p>height:97vh 高度等于视口高度的97%。因为 html body div 是有内边距 边框 的原因，如果设置div为100vh，出现滚动条。所以设置成97vh就行了
 </p>
-<p>如果是<div style="height:97vh"><div style="height:100vh"></div></div>;里面的div会比外面的div高。因为vh是视口单位。所以我们应该这样写：
-<div style="height:97vh"><div style="height:100%"></div></div>,里面的div就用百分百就行</p>
+```html
+<div style="height:97vh"><div style="height:100vh"></div></div>
+```
+<p>里面的div会比外面的div高。因为vh是视口单位。</p>
+```html
+<div style="height:97vh"><div style="height:100%"></div></div>
+```
+<p>里面的div就用百分百就行</p>
 
 
