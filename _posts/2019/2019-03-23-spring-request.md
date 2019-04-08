@@ -19,7 +19,7 @@ ajax post get向后台传递参数，spring-boot可以使用 @RequestParam @Path
 ## @RequestBody
 @RequestBody主要用来接收前端传递给后端的json字符串中的数据的(请求体中的数据的);
 GET方式无请求体，所以使用@RequestBody接收数据时，前端不能使用GET方式提交数据，而是用POST方式进行提交。
-
+当参数可有可无的时候 使用 @RequestBody(required=false) 
 
 
 
