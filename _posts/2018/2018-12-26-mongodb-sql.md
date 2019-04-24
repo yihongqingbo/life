@@ -16,7 +16,15 @@ db.imooc_collection.update({x:1000},{$set:{y:200}},true)
 1. 比较操作符 $lt $lte $gt $gte 分别对应 < <= > >=
 2. 不等于 $ne
 
+# like查询
+db.getCollection('test').find({'createTime':/0200/});
 
+# 查询某字段
+db.getCollection('test').find({deviceId:'110'},{createTime:1}).sort({'createTime':-1});
+
+#聚合 求和
+db.successCard.aggregate({$group:{_id:null,moneysum:{$sum:"$money"}}});
+   注意：被计算的字段必须是 整型，long或者浮点型
 
 
 
