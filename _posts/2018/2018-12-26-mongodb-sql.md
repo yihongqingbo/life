@@ -24,7 +24,7 @@ db.getCollection('test').find({deviceId:'110'},{createTime:1}).sort({'createTime
 
 #聚合 求和
 db.successCard.aggregate({$group:{_id:null,moneysum:{$sum:"$money"}}});
-   注意：被计算的字段必须是 整型，long或者浮点型
+   注意：被计算的字段必须是 整型，long或者浮点型，如果是字符串会得到null
 
 
 
