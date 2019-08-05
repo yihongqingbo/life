@@ -65,12 +65,12 @@ navs:
     label: Home
 
   -
-    href: /baby.html
-    label: baby
+    href: /mongodb.html
+    label: mongodb
     
   -
-    href: /life.html
-    label: life
+    href: /golang.html
+    label: golang
  #
  # -
  #   href: /spring-cloud.html
