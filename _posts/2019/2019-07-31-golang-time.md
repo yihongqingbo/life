@@ -2,8 +2,8 @@
 layout:     post
 title:      golang包time
 no-post-nav: true
-category: web
-tags: [web]
+category: golang
+tags: [golang]
 excerpt: time Duration
 ---
 ## 时间点(time)
