@@ -2,8 +2,8 @@
 layout:     post
 title:      golang入门
 no-post-nav: true
-category: web
-tags: [web]
+category: golang
+tags: [golang]
 excerpt: goLang hello world
 ---
 ## 认知golang
