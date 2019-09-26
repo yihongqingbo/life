@@ -4,7 +4,7 @@ title:     http tcp rpc socket
 no-post-nav: true
 category: golang
 tags: [golang]
-excerpt: 指针符号 * 和 &
+excerpt: 数据接口
 ---
 ### HTTP TCP RPC gRPC socket都是啥
 * tcp 是传输层协议，解决数据如何在网络中传输，以二进制数据流的形式传输。对开发不友好
