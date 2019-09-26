@@ -20,6 +20,11 @@ GoLang时间格式化是 2006-01-02 15:04:05 记忆是06年1月2号3点4分5秒
 	fmt.Println(tp.Truncate(1000),tp.Seconds(),tp.Nanoseconds())
 
 ```
+## 时间的加减
+```GOLang
+	yesterday := time.Now().AddDate(0, 0, -1).Format("2006-01-02")
+	fmt.Printf(yesterday)	
+```
 
 ## 时间段(Duration)
 java没有时间段函数。休眠sleep(3000) 默认单位就是ms
