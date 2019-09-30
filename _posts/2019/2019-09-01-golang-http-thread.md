@@ -6,7 +6,16 @@ category: golang
 tags: [golang]
 excerpt: http请求和线程
 ---
-## http demo 
+## 想想一个问题场景
+
+一个车间能最多能注册1万台设备。多个用户同时注册设备，数量可能超过1万。
+
+解决思路：车间表添加一个字段plan(此次请求要添加的设备数量)，当用户发送请求到后台时(创建N个设备)。设置数据库表值 plan = plan+ N。当前车间下设备数量为num。 if num+plan >1万{设置表值plan = plan- N}else{
+
+添加N个设备之后，设置表值plan = plan- N}
+
+## 模拟http请求，观察多个请求的关系
+
 两个浏览器同时访问一个地址请求
 ```golang
 package main
