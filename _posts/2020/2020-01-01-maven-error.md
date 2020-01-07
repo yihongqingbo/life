@@ -4,7 +4,6 @@ title:      pom文件常见错误解决方案
 no-post-nav: true
 category: web
 tags: [web]
-
 excerpt:pom maven err solve
 ---
 ## line 1 :maven configuration problem
