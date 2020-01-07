@@ -1,11 +1,14 @@
 ---
 layout:     post
-title:      pom文件常见错误解决方案
+title:       pom文件常见错误解决方案
 no-post-nav: true
-category: web
-tags: [web]
-excerpt:pom maven err solve
+category: maven
+tags: [maven]
+excerpt: pom maven err solve
 ---
+
+## 
+
 ## line 1 :maven configuration problem
 ```json
 添加 配置内容
@@ -20,5 +23,4 @@ excerpt:pom maven err solve
 Project -->clean
 然后 maven --> update project
 ```
-
 
