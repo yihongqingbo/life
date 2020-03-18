@@ -82,3 +82,15 @@ function pageInit(){
 
 
 
+### 单选
+
+```json
+multiselect: true,//复选框 
+ beforeSelectRow: function(rowid, e){
+            jQuery("#table_list").jqGrid('resetSelection');
+            return(true);
+        },
+var myGrid = $("#table_list");
+    $("#cb_"+myGrid[0].id).hide();
+```
+
