@@ -1,4 +1,3 @@
----
 layout:     post
 title:       jqgrid 两级表格
 no-post-nav: true
@@ -62,4 +61,3 @@ excerpt: 两级表格
 		
 			}
 		});
-
