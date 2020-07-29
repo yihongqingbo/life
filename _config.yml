@@ -15,11 +15,11 @@ keywords: yihongqingbo,一泓清波,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,
 encoding: "utf-8"
 favicon: favicon.png 
 
-repository: yihongqingbo/yihongqingbo.github.io
+repository: yihongqingbo/yihongqingbo.work.github.io
 github_url: https://github.com/yihongqingbo
 cnblog_url: http://www.cnblogs.com/yihongqingbo
-url: http://yihongqingbo.github.io
-enforce_ssl: yihongqingbo.github.io
+url: http://yihongqingbo.work.github.io
+enforce_ssl: yihongqingbo.work.github.io
 
 ## Gem
 plugins:
